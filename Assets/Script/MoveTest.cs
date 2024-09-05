@@ -6,4 +6,6 @@ public class MoveTest : MonoBehaviour
 {
     public GameObject MoveOpject;
     public GameObject EnemyObject;
+
+    public GameObject TargetObject;
 }
