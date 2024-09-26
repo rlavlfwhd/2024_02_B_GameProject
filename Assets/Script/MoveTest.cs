@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class MoveTest : MonoBehaviour
 {
-    public GameObject MoveOpject;
-    public GameObject EnemyObject;
-
-    public GameObject TargetObject;
+    public Vector3 MoveOffset;
+    public Vector3 SpeedOffset;
+    public Vector3 JumpOffset;
 }
