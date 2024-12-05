@@ -29,7 +29,7 @@ public class InteractionManager : MonoBehaviour
     {
         if(currentInteractable != null)
         {
-            promptText.text = $"[E] {currentInteractable.GetInteracPrompt()}";
+            promptText.text = $"[E] {currentInteractable.GetInteractPrompt()}";
             promptText.gameObject.SetActive(true);
         }
         else
